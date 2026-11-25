@@ -1,0 +1,63 @@
+{
+  "rows": 12480,
+  "total_revenue": 54361175.2,
+  "monthly_revenue": {
+    "1": 5459897.3,
+    "2": 4794950.8,
+    "3": 5547883.0,
+    "4": 5645880.9,
+    "5": 5381065.55,
+    "6": 5186637.1,
+    "7": 5413073.0,
+    "8": 5495117.4,
+    "9": 4798429.5,
+    "10": 6638240.65
+  },
+  "category_revenue": {
+    "Apparel": 7839797.35,
+    "Electronics": 24894085.2,
+    "Grocery": 10274269.75,
+    "Home & Kitchen": 6963590.6,
+    "Personal Care": 4389432.3
+  },
+  "region_revenue": {
+    "East": 12160110.55,
+    "North": 14731787.85,
+    "South": 14729071.85,
+    "West": 12740204.95
+  },
+  "aug_vs_sep": {
+    "biggest_drop_category": "Electronics",
+    "category_aug": 2620167.3,
+    "category_sep": 1788294.85,
+    "category_drop": 831872.45,
+    "category_drop_pct": 31.75,
+    "all_category_drops": {
+      "Apparel": 7756.9,
+      "Electronics": 831872.45,
+      "Grocery": 111321.45,
+      "Home & Kitchen": -143110.45,
+      "Personal Care": -111152.45
+    },
+    "top_region": "South",
+    "top_region_drop": 490519.25,
+    "top_region_share_pct": 58.97,
+    "region_drops": {
+      "East": 100791.2,
+      "North": 11648.35,
+      "South": 490519.25,
+      "West": 228913.65
+    },
+    "top_products": [
+      "Smartwatch Lite",
+      "Earbuds X2"
+    ],
+    "product_drops": {
+      "Smartwatch Lite": 280269.9,
+      "Earbuds X2": 163618.15,
+      "Bluetooth Speaker Mini": 30612.75,
+      "Power Bank 20K": 14540.3,
+      "USB-C Charger": 1478.15
+    }
+  }
+}

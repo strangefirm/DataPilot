@@ -1,0 +1,36 @@
+# --- Secrets (never commit) ---
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# --- Test / tool caches ---
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.deepeval/
+.playwright-mcp/
+
+# --- Generated at run time (contain uploaded data, traces and model output) ---
+runs/
+eval_results/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

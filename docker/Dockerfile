@@ -1,0 +1,5 @@
+FROM python:3.12-slim
+RUN pip install --no-cache-dir pandas==2.2.3 numpy matplotlib==3.9.2 openpyxl \
+    && useradd -m -u 1000 sandbox
+USER sandbox
+WORKDIR /work
